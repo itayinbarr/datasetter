@@ -1,0 +1,7 @@
+numpy
+torch
+mne
+matplotlib
+pandas
+scipy
+
