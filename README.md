@@ -1,7 +1,7 @@
 # EEG Dataset Preprocessing & Unification
 
 **Author:** [Happy Thalamus](https://github.com/happy-thalamus)  
-**Version:** 1.0.0
+**Version:** 0.0.1
 
 ## Overview
 
@@ -57,10 +57,10 @@ npm install --global @openneuro/cli
 openneuro download --snapshot <snapshot_number> <dataset_id> <target_directory>
 ```
 
-For example, to download `ds005815` (not currently supported in the code, but the method is the same), you’d do:
+For example, to download `ds002691`
 
 ```bash
-openneuro download --snapshot 1.0.1 ds005815 ds005815-download/
+openneuro download --snapshot 1.0.1 ds002691 ds002691-download/
 ```
 
 **Make sure** that when you download `ds00XXXX`, you place it in the `data/raw` directory (or another location that you configure in your code).
@@ -72,8 +72,8 @@ For more details on other methods (AWS CLI, Datalad, browser downloads), see [Op
 1. **Clone the repository** and enter the directory:
 
    ```bash
-   git clone https://github.com/YourName/my_eeg_project.git
-   cd my_eeg_project
+   git clone https://github.com/happy-thalamus/datasetter.git
+   cd datasetter
    ```
 
 2. **Download** the supported OpenNeuro datasets (see above). Place them in `./data/raw/` (or wherever you prefer).
@@ -89,7 +89,7 @@ For more details on other methods (AWS CLI, Datalad, browser downloads), see [Op
    - If not, create one by loading, resampling, epoching, and saving the unified data.
    - Generate example plots in `./data/processed/plots/`.
 
-For more detailed showcases, see [docs/showcase.md](https://chatgpt.com/c/docs/showcase.md).
+For more detailed showcases, see [docs/showcase.md](./docs/showcase.md).
 
 ## Planned Enhancements
 
@@ -100,14 +100,14 @@ For more detailed showcases, see [docs/showcase.md](https://chatgpt.com/c/docs/s
 
 ## Contributing
 
-We welcome contributions and new dataset support! Please read our [CONTRIBUTING.md](https://chatgpt.com/c/CONTRIBUTING.md) for guidelines on filing issues, creating pull requests, or adding new dataset loaders.
+We welcome contributions and new dataset support! Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on filing issues, creating pull requests, or adding new dataset loaders.
 
 ## License
 
-[MIT License](https://chatgpt.com/c/LICENSE)  
-(Or whichever license you choose.)
+[MIT License](./LICENSE)
 
 ---
 
 _Happy EEG analyzing!_
+
 # datasetter

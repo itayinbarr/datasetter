@@ -19,11 +19,10 @@ We’re excited you want to contribute! Here are some guidelines to make the pro
 1. **Fork** this repo and clone your fork locally.
 2. Create a Python virtual environment or Conda environment.
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
-
-```
 
 4. You can run the example script in `examples/data_preparation.py` to ensure everything works.
 
@@ -31,9 +30,9 @@ We’re excited you want to contribute! Here are some guidelines to make the pro
 
 1. **Branch naming**: name your branch something descriptive, like `feature/ds999999-loader` or `fix/channel-name-bug`.
 2. **Pull Request description**: Please include:
-    - A reference to the issue number (if applicable).
-    - A short description of what you changed and why.
-    - Any additional details to help reviewers understand your approach.
+   - A reference to the issue number (if applicable).
+   - A short description of what you changed and why.
+   - Any additional details to help reviewers understand your approach.
 3. Ensure all relevant tests pass (if you added or updated tests), and that your code adheres to Python best practices (PEP8 formatting is always a plus).
 
 ## Code of Conduct
@@ -41,4 +40,3 @@ We’re excited you want to contribute! Here are some guidelines to make the pro
 Please be respectful and constructive in all communications. We appreciate all contributions and aim to foster a welcoming environment for everyone.
 
 Thank you for helping improve this project!
-```
