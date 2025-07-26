@@ -1,6 +1,6 @@
 # EEG Dataset Preprocessing & Unification
 
-**Author:** [Happy Thalamus](https://github.com/happy-thalamus)  
+**Author:** Itay  
 **Version:** 0.0.1
 
 ## Overview
