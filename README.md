@@ -72,7 +72,7 @@ For more details on other methods (AWS CLI, Datalad, browser downloads), see [Op
 1. **Clone the repository** and enter the directory:
 
    ```bash
-   git clone https://github.com/happy-thalamus/datasetter.git
+   git clone https://github.com/itayinbarr/datasetter.git
    cd datasetter
    ```
 
